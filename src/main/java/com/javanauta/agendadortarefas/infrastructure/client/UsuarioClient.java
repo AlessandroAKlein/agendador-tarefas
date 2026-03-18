@@ -12,7 +12,7 @@ public interface UsuarioClient {
 
     @GetMapping ("/usuario")
   UsuarioDTO listarTodosUsuarios(@RequestParam("email") String email,
-                                 @RequestHeader("Authorizarion") String token);
+                                 @RequestHeader("Authorization") String token);
 
 
 
